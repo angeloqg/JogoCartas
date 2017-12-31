@@ -1,0 +1,35 @@
+﻿<div class="row">
+    <div class="col-lg-12 text-center">
+        <br />
+        <h2>Poker Game - Jogadores</h2>
+        <br />
+        <table>
+            <tr>
+                <td align="right" width="380">
+                    <button class="btn btn-danger btn-lg" style="font-size:20px;width:300px" ng-click="exibirResultado()">Revelar Vencedor</button>
+                </td>
+                <td align="center" width="200">
+
+                    <span ng-if="exibir" style="color:red;font-size:20px;font-weight:bold">=> {{Resultado}}</span>
+                </td>
+                <td align="right" width="380">
+                    <a ng-if="exibir" class="btn btn-success btn-lg" style="font-size:20px;width:300px" href="#/" ng-click="ocultarResultado()">Novo Jogo</a>
+                </td>
+            </tr>
+        </table>
+        <br />
+        <p style="font-weight:bold;font-size:16px"><u>Observação</u>: Caso o maior ranking se repita, será desempatado pela maior pontuação do ranking.</p>
+        <br />
+        <table align="center" cellpadding="20" cellspacing="20">
+            <tr ng-repeat="mao in MaosJogadores">
+                <th>{{mao.Jogador}}</th>
+                <td><img style="width:100px" src="/Angular_App/Imagem/baralho/{{mao.Carta1}}.png" /></td>
+                <td><img style="width:100px" src="/Angular_App/Imagem/baralho/{{mao.Carta2}}.png" /></td>
+                <td><img style="width:100px" src="/Angular_App/Imagem/baralho/{{mao.Carta3}}.png" /></td>
+                <td><img style="width:100px" src="/Angular_App/Imagem/baralho/{{mao.Carta4}}.png" /></td>
+                <td><img style="width:100px" src="/Angular_App/Imagem/baralho/{{mao.Carta5}}.png" /></td>
+                <th>{{mao.Ranking}}</th>
+            </tr>
+        </table>
+        </div>
+</div>
