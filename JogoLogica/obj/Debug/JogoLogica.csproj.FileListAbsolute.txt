@@ -3,3 +3,8 @@ C:\Users\angel\Desktop\Prova técnica\JogoCartas\JogoLogica\bin\Debug\JogoLogica
 C:\Users\angel\Desktop\Prova técnica\JogoCartas\JogoLogica\obj\Debug\JogoLogica.csprojResolveAssemblyReference.cache
 C:\Users\angel\Desktop\Prova técnica\JogoCartas\JogoLogica\obj\Debug\JogoLogica.dll
 C:\Users\angel\Desktop\Prova técnica\JogoCartas\JogoLogica\obj\Debug\JogoLogica.pdb
+C:\Users\angel\Desktop\Prova técnica\Jogo\trunk\JogoCartas\JogoLogica\bin\Debug\JogoLogica.dll
+C:\Users\angel\Desktop\Prova técnica\Jogo\trunk\JogoCartas\JogoLogica\bin\Debug\JogoLogica.pdb
+C:\Users\angel\Desktop\Prova técnica\Jogo\trunk\JogoCartas\JogoLogica\obj\Debug\JogoLogica.csprojResolveAssemblyReference.cache
+C:\Users\angel\Desktop\Prova técnica\Jogo\trunk\JogoCartas\JogoLogica\obj\Debug\JogoLogica.dll
+C:\Users\angel\Desktop\Prova técnica\Jogo\trunk\JogoCartas\JogoLogica\obj\Debug\JogoLogica.pdb

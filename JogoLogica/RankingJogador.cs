@@ -20,16 +20,16 @@ namespace JogoLogica
             foreach (var cartas in cartasJogador.OrderBy(i => i.Peso))
             {
 
-                if (cartas.Naipe.Equals("Ouros"))
+                if (cartas.Naipe.Equals("ouros"))
                     ouros++;
 
-                if (cartas.Naipe.Equals("Copas"))
+                if (cartas.Naipe.Equals("copas"))
                     copas++;
 
-                if (cartas.Naipe.Equals("Espadas"))
+                if (cartas.Naipe.Equals("espadas"))
                     espadas++;
 
-                if (cartas.Naipe.Equals("Paus"))
+                if (cartas.Naipe.Equals("paus"))
                     paus++;
             }
 
